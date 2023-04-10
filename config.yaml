@@ -1,0 +1,16 @@
+name: media_download_service
+file_save_path: ./
+mode: dev
+Log:
+  model: "dev"
+  level: "warn"
+  file_name: "./deal.log"
+  max_size: 200
+  max_age: 30
+  max_backups: 5
+Redis:
+  host: "xxx"
+  port: 63791
+  pwd: ""
+  db: 0
+  mediaKey: "news:media:queue"
